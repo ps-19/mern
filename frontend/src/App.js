@@ -6,6 +6,7 @@ import About from './components/about.js';
 import Contact from './components/contact.js';
 import Login from './components/login.js';
 import Register from './components/register.js';
+import UploadImg from './components/uploadImg.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/upload" element={ <UploadImg />} />
       </Routes>
     </div>
   )

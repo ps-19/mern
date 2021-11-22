@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page{
+    height: 100vh;
+    background-color: #512da8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .container{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+  }
+  .heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+  
+  }
+  .img-holder{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 3px black solid;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  .img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  #input[type="file"] {
+      display: none;
+  }
+  .label{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .image-upload{
+    margin: auto;
+    width: 200px;
+      height: 50px;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+  }
