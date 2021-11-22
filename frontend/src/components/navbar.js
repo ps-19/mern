@@ -34,6 +34,11 @@ function navbar() {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink className="nav-link" aria-current="page" to="/upload">
+                  DemoUpload
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink className="nav-link" aria-current="page" to="/contact">
                   Contact
                 </NavLink>
